@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "redux-live-class-todo-app",
   "version": "1.0.0",
-  "description": "A minimalist boilerplate for modern react and redux apps.",
+  "description": "A minimal React+Redux example todo application",
   "scripts": {
     "start": "NODE_ENV=development node server.js",
     "test": "tape -r babel-register 'src/**/*spec.js' | faucet",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshdmiller/react-redux-boilerplate.git"
+    "url": "https://github.com/joshdmiller/redux-live-class-todo-app.git"
   },
   "author": "Josh David Miller <josh@joshdavidmiller.com> (http://joshdavidmiller.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshdmiller/react-redux-boilerplate/issues"
+    "url": "https://github.com/joshdmiller/redux-live-class-todo-app/issues"
   },
-  "homepage": "https://github.com/joshdmiller/react-redux-boilerplate",
+  "homepage": "https://github.com/joshdmiller/redux-live-class-todo-app",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
