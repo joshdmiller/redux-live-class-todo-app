@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import { Provider } from 'react-redux';
 
 import App from './';
-import Greeting from '../greeting';
+import TodoList from '../todo-list';
 
 test( 'App', t => {
   let expected, actual;
@@ -17,8 +17,8 @@ test( 'App', t => {
   t.ok( actual === expected, 'renders a React/Redux Provider' );
 
   expected = 1;
-  actual = wrapper.find( Greeting ).length;
+  actual = wrapper.find( TodoList ).length;
 
-  t.equals( actual, expected, 'renders a Greeting component' );
+  t.equals( actual, expected, 'renders a TodoList component' );
 });
 

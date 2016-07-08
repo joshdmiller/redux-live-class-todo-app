@@ -2,12 +2,12 @@ import React from 'react';
 import test from 'tape';
 import { shallow } from 'enzyme';
 
-import Greeting from './';
+import { TodoList } from './';
 
-test( 'Greeting', t => {
+test( 'TodoList', t => {
   t.plan( 1 );
 
-  const wrapper = shallow( <Greeting /> );
+  const wrapper = shallow( <TodoList /> );
   const expected = true;
   const actual = wrapper.is( 'div' );
 
